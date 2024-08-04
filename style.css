@@ -1,0 +1,152 @@
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.wrapper {
+  position: relative;
+  width: 256px;
+  height: 256px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  position: absolute;
+  width: 400px;
+}
+
+.form-wrapper h2 {
+  color: #00fffc;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.input-box {
+  position: relative;
+  margin: 25px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: none;
+  outline: none;
+  border: 2px solid #2c4766;
+  border-radius: 30px;
+  font-size: 17px;
+  color: #fff;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+  border-color: #00fffc;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 17px;
+  pointer-events: none;
+  transition: 0.5s ease;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: 1px;
+  font-size: 14px;
+  color: #00fffc;
+  background: #000;
+  padding: 0 6px;
+}
+
+.forgot-password {
+  margin: -15px 0 10px;
+  text-align: center;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  background: #00fffc;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signup-link {
+  margin: 20px 0 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.signup-link a {
+  text-decoration: none;
+  color: #00fffc;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.wrapper span {
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  background: #2c4766;
+  border-radius: 8px;
+  left: 0;
+  transform-origin: 128px;
+  transform: scale(2.2) rotate(calc((var(--i) * 360deg / 50)));
+  animation: anim 1s linear infinite;
+  animation-delay: calc(var(--i) * (3s / 50));
+}
+
+@keyframes anim {
+  0% {
+    background: #00fffc;
+  }
+  25% {
+    background: #2c4766;
+  }
+}
