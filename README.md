@@ -2,7 +2,7 @@
 
 Login Form Built Using HTML, CSS and JavaScript.
 
-![Login Form Screenshot](Screenshot 2024-08-04 192156.png)
+![Login Form Screenshot](https://raw.githubusercontent.com/BinaryVortex/Login-Form-91/main/Screenshot%202024-08-04%20192156.png)
 
 Quick links
 - Live demo: (Add link if hosted, e.g. GitHub Pages)
@@ -50,7 +50,7 @@ To run locally:
 ## Screenshots
 The screenshot below is included from the repository root.
 
-![Login Form Screenshot](Screenshot 2024-08-04 192156.png)
+![Login Form Screenshot](https://raw.githubusercontent.com/BinaryVortex/Login-Form-91/main/Screenshot%202024-08-04%20192156.png)
 
 If you'd like the image moved into an `assets/` or `images/` folder and referenced from there, I can do that.
 
